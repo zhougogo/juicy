@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=no">
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/zy.media.min.css"/>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="content content1">
+					<div class="zy_media">
+						<video x-webkit-airplay="true" playsinline webkit-playsinline="true" autoplay="autoplay" poster="https://r1.ykimg.com/05420408584A363C6A0A47047DD24931" data-config='{"mediaTitle": "测试视频--视频"}'>
+							<source src="http://www.w3cschool.cc/try/demo_source/mov_bbb.mp4" type="video/mp4"> 您的浏览器不支持HTML5视频
+						</video>
+					</div>
+
+				<img src="img/shareBtn.png" alt="" class="shareBtn hidden">
+				<img src="img/careBtn.png" alt="" class="careBtn hidden">
+			</div>
+			<div class="content hidden content2">
+				<img src="img/code.png" alt="" class="code">
+				<img src="img/knowBtn.png" alt="" class="kownBtn">
+			</div>
+			<div class="content hidden content3">
+				<img src="img/shareText.png" alt="" class="shareText">
+				<img src="img/plane.png" alt="" class="plane">
+				<img src="img/knowBtn.png" alt="" class="kownBtn">
+			</div>
+		</div>
+
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/zy.media.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+		zymedia('video', { autoplay: true });
+	</script>
+
+</html>
